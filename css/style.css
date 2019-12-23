@@ -1,0 +1,228 @@
+html {
+  font-family: "noto sans";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #292d3e;
+  color: white;
+  padding: 10px;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+
+h5 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+header {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: white;
+  text-decoration: underline;
+  -webkit-text-decoration-color: white;
+  text-decoration-color: white;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.container .btn-container {
+  width: 50%;
+  max-width: 500px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-top: 2rem;
+  gap: 20px;
+}
+
+.container .btn-container--btn {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 0;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  -webkit-transform: rotateX(40deg);
+  transform: rotateX(40deg);
+}
+
+.container .btn-container--btn:active {
+  -webkit-transform: translateY(10px) rotateX(40deg);
+  transform: translateY(10px) rotateX(40deg);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.container .btn-container--btn-1 {
+  background-image: url("/src/rock.png");
+  background-color: palegreen;
+  -webkit-box-shadow: 0px 1px 0px rgba(152, 251, 152, 0.4);
+  box-shadow: 0px 1px 0px rgba(152, 251, 152, 0.4);
+  -webkit-box-shadow: 0px 2px 0px rgba(152, 251, 152, 0.4);
+  box-shadow: 0px 2px 0px rgba(152, 251, 152, 0.4);
+  -webkit-box-shadow: 0px 3px 0px rgba(152, 251, 152, 0.4);
+  box-shadow: 0px 3px 0px rgba(152, 251, 152, 0.4);
+  -webkit-box-shadow: 0px 4px 0px rgba(152, 251, 152, 0.4);
+  box-shadow: 0px 4px 0px rgba(152, 251, 152, 0.4);
+  -webkit-box-shadow: 0px 5px 0px rgba(152, 251, 152, 0.4);
+  box-shadow: 0px 5px 0px rgba(152, 251, 152, 0.4);
+  -webkit-box-shadow: 0px 6px 0px rgba(152, 251, 152, 0.4);
+  box-shadow: 0px 6px 0px rgba(152, 251, 152, 0.4);
+  -webkit-box-shadow: 0px 7px 0px rgba(152, 251, 152, 0.4);
+  box-shadow: 0px 7px 0px rgba(152, 251, 152, 0.4);
+  -webkit-box-shadow: 0px 8px 0px rgba(152, 251, 152, 0.4);
+  box-shadow: 0px 8px 0px rgba(152, 251, 152, 0.4);
+  -webkit-box-shadow: 0px 9px 0px rgba(152, 251, 152, 0.4);
+  box-shadow: 0px 9px 0px rgba(152, 251, 152, 0.4);
+  -webkit-box-shadow: 0px 10px 0px rgba(152, 251, 152, 0.4);
+  box-shadow: 0px 10px 0px rgba(152, 251, 152, 0.4);
+}
+
+.container .btn-container--btn-2 {
+  background-image: url("/src/paper.png");
+  background-color: palevioletred;
+  -webkit-box-shadow: 0px 1px 0px rgba(219, 112, 147, 0.4);
+  box-shadow: 0px 1px 0px rgba(219, 112, 147, 0.4);
+  -webkit-box-shadow: 0px 2px 0px rgba(219, 112, 147, 0.4);
+  box-shadow: 0px 2px 0px rgba(219, 112, 147, 0.4);
+  -webkit-box-shadow: 0px 3px 0px rgba(219, 112, 147, 0.4);
+  box-shadow: 0px 3px 0px rgba(219, 112, 147, 0.4);
+  -webkit-box-shadow: 0px 4px 0px rgba(219, 112, 147, 0.4);
+  box-shadow: 0px 4px 0px rgba(219, 112, 147, 0.4);
+  -webkit-box-shadow: 0px 5px 0px rgba(219, 112, 147, 0.4);
+  box-shadow: 0px 5px 0px rgba(219, 112, 147, 0.4);
+  -webkit-box-shadow: 0px 6px 0px rgba(219, 112, 147, 0.4);
+  box-shadow: 0px 6px 0px rgba(219, 112, 147, 0.4);
+  -webkit-box-shadow: 0px 7px 0px rgba(219, 112, 147, 0.4);
+  box-shadow: 0px 7px 0px rgba(219, 112, 147, 0.4);
+  -webkit-box-shadow: 0px 8px 0px rgba(219, 112, 147, 0.4);
+  box-shadow: 0px 8px 0px rgba(219, 112, 147, 0.4);
+  -webkit-box-shadow: 0px 9px 0px rgba(219, 112, 147, 0.4);
+  box-shadow: 0px 9px 0px rgba(219, 112, 147, 0.4);
+  -webkit-box-shadow: 0px 10px 0px rgba(219, 112, 147, 0.4);
+  box-shadow: 0px 10px 0px rgba(219, 112, 147, 0.4);
+}
+
+.container .btn-container--btn-3 {
+  background-image: url("/src/scissor.png");
+  background-color: palegoldenrod;
+  -webkit-box-shadow: 0px 1px 0px rgba(238, 232, 170, 0.4);
+  box-shadow: 0px 1px 0px rgba(238, 232, 170, 0.4);
+  -webkit-box-shadow: 0px 2px 0px rgba(238, 232, 170, 0.4);
+  box-shadow: 0px 2px 0px rgba(238, 232, 170, 0.4);
+  -webkit-box-shadow: 0px 3px 0px rgba(238, 232, 170, 0.4);
+  box-shadow: 0px 3px 0px rgba(238, 232, 170, 0.4);
+  -webkit-box-shadow: 0px 4px 0px rgba(238, 232, 170, 0.4);
+  box-shadow: 0px 4px 0px rgba(238, 232, 170, 0.4);
+  -webkit-box-shadow: 0px 5px 0px rgba(238, 232, 170, 0.4);
+  box-shadow: 0px 5px 0px rgba(238, 232, 170, 0.4);
+  -webkit-box-shadow: 0px 6px 0px rgba(238, 232, 170, 0.4);
+  box-shadow: 0px 6px 0px rgba(238, 232, 170, 0.4);
+  -webkit-box-shadow: 0px 7px 0px rgba(238, 232, 170, 0.4);
+  box-shadow: 0px 7px 0px rgba(238, 232, 170, 0.4);
+  -webkit-box-shadow: 0px 8px 0px rgba(238, 232, 170, 0.4);
+  box-shadow: 0px 8px 0px rgba(238, 232, 170, 0.4);
+  -webkit-box-shadow: 0px 9px 0px rgba(238, 232, 170, 0.4);
+  box-shadow: 0px 9px 0px rgba(238, 232, 170, 0.4);
+  -webkit-box-shadow: 0px 10px 0px rgba(238, 232, 170, 0.4);
+  box-shadow: 0px 10px 0px rgba(238, 232, 170, 0.4);
+}
+
+.container .scoreboard {
+  height: 100px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 5rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.container .scoreboard .comp,
+.container .scoreboard .user {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  background-color: #f52952;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  line-height: 100px;
+  text-align: center;
+}
+
+.container .scoreboard .comp:hover::before,
+.container .scoreboard .user:hover::before {
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+}
+
+.container .scoreboard .comp::before,
+.container .scoreboard .user::before {
+  content: "computer";
+  font-size: 1.5rem;
+  line-height: 100px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: block;
+  font-weight: 500;
+  background-color: #3f4252;
+  -webkit-transform: rotateX(0.25turn);
+  transform: rotateX(0.25turn);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+}
+
+.container .scoreboard .user {
+  background-color: cornflowerblue;
+  border-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container .scoreboard .user::before {
+  content: "You";
+}
