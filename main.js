@@ -30,17 +30,18 @@ function getComp() {
 }
 
 function checkResult(comp, user) {
-  comp_score = Number(compScore_div.innerHTML);
-  user_score = Number(userScore_div.innerHTML);
-
   if (user == comp) {
     info_div.innerHTML = "It's draw";
   } else if (rules[user] == comp) {
     info_div.innerHTML = `Computer choosed ${moves[comp]} You win.`;
-    userScore_div.innerHTML = user_score + 1;
+
+    userScore++;
+    userScore_div.innerHTML = userScore + 1;
   } else {
     info_div.innerHTML = `Computer choosed ${moves[comp]} You lose.`;
-    compScore_div.innerHTML = comp_score + 1;
+
+    compScore++;
+    compScore_div.innerHTML = compScore + 1;
   }
 }
 
